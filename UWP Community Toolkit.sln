@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microsoft.Toolkit.Uwp.Input
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeInputTest", "GazeInputTest\GazeInputTest.csproj", "{A122EA02-4DE7-413D-BFBF-AF7DFC668DD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeTest", "GazeTest\GazeTest.csproj", "{E3D2D629-C281-4522-A263-FF980A8B3EEE}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UnitTests\UnitTests.Notifications.Shared\UnitTests.Notifications.Shared.projitems*{982cc826-aacd-4855-9075-430bb6ce40a9}*SharedItemsImports = 13
@@ -447,6 +449,26 @@ Global
 		{A122EA02-4DE7-413D-BFBF-AF7DFC668DD6}.Release|x86.ActiveCfg = Release|x86
 		{A122EA02-4DE7-413D-BFBF-AF7DFC668DD6}.Release|x86.Build.0 = Release|x86
 		{A122EA02-4DE7-413D-BFBF-AF7DFC668DD6}.Release|x86.Deploy.0 = Release|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|ARM.Build.0 = Debug|ARM
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|x64.ActiveCfg = Debug|x64
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|x64.Build.0 = Debug|x64
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|x64.Deploy.0 = Debug|x64
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|x86.ActiveCfg = Debug|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|x86.Build.0 = Debug|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Debug|x86.Deploy.0 = Debug|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|Any CPU.ActiveCfg = Release|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|ARM.ActiveCfg = Release|ARM
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|ARM.Build.0 = Release|ARM
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|ARM.Deploy.0 = Release|ARM
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|x64.ActiveCfg = Release|x64
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|x64.Build.0 = Release|x64
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|x64.Deploy.0 = Release|x64
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|x86.ActiveCfg = Release|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|x86.Build.0 = Release|x86
+		{E3D2D629-C281-4522-A263-FF980A8B3EEE}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
