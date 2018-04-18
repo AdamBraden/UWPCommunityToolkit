@@ -27,7 +27,9 @@ public:
     {
         GazeCursor^ get()
         {
-            static GazeCursor^ cursor = ref new GazeCursor();
+			static GazeCursor^ cursor;
+			if (cursor == nullptr)
+				cursor = ref new GazeCursor();
             return cursor;
         }
     }

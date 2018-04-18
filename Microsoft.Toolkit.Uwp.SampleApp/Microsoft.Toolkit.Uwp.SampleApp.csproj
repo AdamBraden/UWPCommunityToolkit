@@ -495,13 +495,10 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="SamplePages\GazeTracing\GazeTracingXaml.bind" />
-<<<<<<< HEAD
     <Content Include="SamplePages\GazePointerProperties\GazePointerPropertiesXaml.bind" />
-=======
     <Content Include="SamplePages\PrintHelper\PrintHelperXaml.bind">
       <SubType>Designer</SubType>
     </Content>
->>>>>>> harishsk/gaze-integration
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">

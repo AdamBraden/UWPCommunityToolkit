@@ -27,15 +27,17 @@ DependencyProperty^ GazeApi::GazePointerProperty::get() { return s_gazePointerPr
 static void OnIsGazeEnabledChanged(DependencyObject^ ob, DependencyPropertyChangedEventArgs^ args)
 {
     auto isGazeEnabled = safe_cast<bool>(args->NewValue);
-    if (isGazeEnabled)
+	if (isGazeEnabled)
     {
+		Debug::WriteLine(L"GazeEnabled");
         auto page = safe_cast<Page^>(ob);
 
         auto gazePointer = GazeApi::GetGazePointer(page);
     }
     else
     {
-        // TODO: Turn off GazePointer
+		Debug::WriteLine(L"GazeDisabled");
+		// TODO: Turn off GazePointer
     }
 }
 
@@ -53,7 +55,7 @@ static void OnGazeCursorRadiusChanged(DependencyObject^ ob, DependencyPropertyCh
     auto gazePointer = safe_cast<GazePointer^>(ob->GetValue(GazeApi::GazePointerProperty));
     if (gazePointer != nullptr)
     {
-        gazePointer->CursorRadius = safe_cast<bool>(args->NewValue);
+        gazePointer->CursorRadius = safe_cast<int>(args->NewValue);
     }
 }
 

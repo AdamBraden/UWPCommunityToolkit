@@ -9,8 +9,7 @@
      xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.Gaze"
      gaze:GazeApi.IsGazeEnabled="@[IsGazeEnabled:Bool:True]"
      gaze:GazeApi.IsGazeCursorVisible="@[IsGazeCursorVisible:Bool:True]"
-   
-    
+     gaze:GazeApi.GazeCursorRadius="@[GazeCursorRadius:Slider:10:1-40]"
     >
 
   <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"   >
@@ -21,28 +20,15 @@
 
 
     <Grid Grid.Row="1"  >
-      <Grid.RowDefinitions>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-        <RowDefinition Height="Auto" ></RowDefinition>
-      </Grid.RowDefinitions>
 
-
-      <!--<ToggleButton Width="100" Height="100" Margin="20" HorizontalAlignment="Center"
+      <ToggleButton Width="100" Height="100" Margin="20" HorizontalAlignment="Center"
                     
                     gaze:GazeApi.Enter="@[Enter:TimeSpan:50:50-200]"
                     gaze:GazeApi.Fixation="@[Fixation:TimeSpan:400:50-1000]"
                     gaze:GazeApi.Dwell="@[Dwell:TimeSpan:800:100-5000]"
                     gaze:GazeApi.DwellRepeat="@[DwellRepeat:TimeSpan:1600:50-10000]"
                     gaze:GazeApi.MaxRepeatCount="@[MaxRepeatCount:Slider:0:0-20]"
-                    />-->
+                    />
 
     </Grid>
 
